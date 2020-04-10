@@ -14,5 +14,8 @@
     <p>Hello World of Spring!</p>
     <br>
     <p>Student name: ${param.studentName}</p>
+
+    <br>
+    <p>The message: ${message}</p>
 </body>
 </html>
