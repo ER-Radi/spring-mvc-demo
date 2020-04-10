@@ -9,10 +9,18 @@
 <html>
 <head>
     <title>Spring MVC Demo - Home Page</title>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css">
+    <script src="${pageContext.request.contextPath}/resources/js/simple-test.js"></script>
 </head>
 <body>
-    <h2>Spring MVC Demo - Home Page</h2>
+    <h2>
+        Spring MVC Demo - Home Page
+        <img src="${pageContext.request.contextPath}/resources/images/java_logo.png"  alt="Spring Framework Logo" width="40" align="middle"/>
+    </h2>
+
     <hr>
     <a href="showForm">Hello World form</a>
+    <br><br>
+    <button type="button" onclick="sayHi()" value="Click Me">Click Me</button>
 </body>
 </html>
