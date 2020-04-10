@@ -1,18 +1,18 @@
 <%--
   Created by IntelliJ IDEA.
   User: er-radi
-  Date: 09/04/2020
-  Time: 21:32
+  Date: 10/04/2020
+  Time: 12:42
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Spring MVC Demo - Home Page</title>
+    <title>Hello World</title>
 </head>
 <body>
-    <h2>Spring MVC Demo - Home Page</h2>
-    <hr>
-    <a href="showForm">Hello World form</a>
+    <p>Hello World of Spring!</p>
+    <br>
+    <p>Student name: ${param.studentName}</p>
 </body>
 </html>
