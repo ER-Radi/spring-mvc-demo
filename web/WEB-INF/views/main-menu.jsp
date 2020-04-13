@@ -19,7 +19,7 @@
     </h2>
 
     <hr>
-    <a href="showForm">Hello World form</a>
+    <a href="hello/showForm">Hello World form</a>
     <br><br>
     <button type="button" onclick="sayHi()" value="Click Me">Click Me</button>
 </body>
