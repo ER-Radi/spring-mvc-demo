@@ -1,6 +1,9 @@
 package com.lov2code.springdemo.mvc;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class Student {
 
@@ -8,10 +11,11 @@ public class Student {
     private String lastName;
     private String country;
 
-    private LinkedHashMap<String, String> countryOptions;
+    //private LinkedHashMap<String, String> countryOptions;
 
     public Student() {
         // populate country options: used ISO country code
+        /*
         countryOptions = new LinkedHashMap<>();
 
         countryOptions.put("DE", "Germany");
@@ -19,6 +23,7 @@ public class Student {
         countryOptions.put("BR", "Brazil");
         countryOptions.put("IN", "India");
         countryOptions.put("US", "United States of America");
+         */
     }
 
     public String getFirstName() {
@@ -45,7 +50,9 @@ public class Student {
         this.country = country;
     }
 
+    /*
     public LinkedHashMap<String, String> getCountryOptions() {
         return countryOptions;
     }
+     */
 }
