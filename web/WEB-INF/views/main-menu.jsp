@@ -22,6 +22,8 @@
     <a href="hello/showForm">Hello World form</a>
     <br>
     <a href="student/showForm">Student form</a>
+    <br>
+    <a href="customer/showForm">Customer Form</a>
     <br><br>
     <button type="button" onclick="sayHi()" value="Click Me">Click Me</button>
 </body>
